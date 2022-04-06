@@ -1,0 +1,11 @@
+Package: VedicDateTimeDummy
+Type: Package
+Title: Calculates Vedic Dates and Time
+Version: 0.1.0
+Author: Prajwal Patil
+Maintainer: Prajwal <prajwalpatilcodes@gmail.com>
+Description: Calculates Vedic date and time from the Georgian date and time
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
