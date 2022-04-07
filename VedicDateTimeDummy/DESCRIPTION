@@ -4,7 +4,7 @@ Title: Calculates Vedic Dates and Time
 Version: 0.1.0
 Author: Prajwal Patil
 Maintainer: Prajwal <prajwalpatilcodes@gmail.com>
-Description: Calculates Vedic date and time from the Georgian date and time
+Description: Calculates Vedic date and time from the available Georgian date and time.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
