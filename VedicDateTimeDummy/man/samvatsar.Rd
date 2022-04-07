@@ -4,7 +4,7 @@
 \alias{samvatsar}
 \title{Used to retrieve the samvatsar}
 \usage{
-samvatsar(year, month)
+samvatsar(year, month = 4)
 }
 \arguments{
 \item{year}{Year as an integer}
