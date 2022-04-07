@@ -79,7 +79,7 @@ get_shaka_samvat<-function(){
 #'@export
 #'@param year Year as an integer
 #'@param month Month as an integer
-samvatsar<-function(year,month){
+samvatsar<-function(year,month = 4){
   vikram_samvat_year <- vikram_samvat(year,month)
   year_index <- ((vikram_samvat_year - 3) %% 60)
   return(samvatsar_list[[year_index]])

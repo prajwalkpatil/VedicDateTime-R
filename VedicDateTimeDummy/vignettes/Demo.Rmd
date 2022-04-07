@@ -1,0 +1,71 @@
+---
+title: "VedicDateTime"
+output: rmarkdown::html_vignette
+author: "Prajwal Patil"
+vignette: >
+  %\VignetteIndexEntry{Demo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Setting up the library
+
+First load ` VedicDateTimeDummy `:
+
+```{r setup}
+library(VedicDateTimeDummy)
+```
+
+## Vikram Samvat from Georgian year and month
+
+```{r}
+vikram_samvat(2020)
+```
+
+```{r}
+vikram_samvat(2022,1)
+```
+
+## Vikram Samvat from system date
+
+```{r}
+get_vikram_samvat()
+```
+
+## Shaka Samvat from Georgian year and month
+
+```{r}
+shaka_samvat(2019)
+```
+
+```{r}
+shaka_samvat(2022,1)
+```
+
+## Shaka Samvat from system date
+
+```{r}
+get_shaka_samvat()
+```
+
+## Shaka Samvatsar from Georgian year and month
+
+```{r}
+samvatsar(2020)
+```
+```{r}
+samvatsar(2022,5)
+```
+
+## Shaka samvatsar from system date
+
+```{r}
+get_samvatsar()
+```
